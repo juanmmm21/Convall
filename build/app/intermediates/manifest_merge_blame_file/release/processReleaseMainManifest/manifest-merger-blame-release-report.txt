@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.convall"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:3:5-80
+11-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:3:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:5:5-82
+13-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:5:22-79
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:6:5-75
+14-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:6:22-73
+15    <!--
+16         Required to query activities that can process text, see:
+17         https://developer.android.com/training/package-visibility and
+18         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+19
+20         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+21    -->
+22    <queries>
+22-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:49:5-54:15
+23        <intent>
+23-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:50:9-53:18
+24            <action android:name="android.intent.action.PROCESS_TEXT" />
+24-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:51:13-72
+24-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:51:21-70
+25
+26            <data android:mimeType="text/plain" />
+26-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:52:13-50
+26-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:52:19-48
+27        </intent>
+28        <intent>
+28-->[:file_picker] C:\Users\JuaMa\Desktop\Convall\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:18
+29            <action android:name="android.intent.action.GET_CONTENT" />
+29-->[:file_picker] C:\Users\JuaMa\Desktop\Convall\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-72
+29-->[:file_picker] C:\Users\JuaMa\Desktop\Convall\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:21-69
+30
+31            <data android:mimeType="*/*" />
+31-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:52:13-50
+31-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:52:19-48
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[androidx.media3:media3-common:1.4.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\f287878c588d535c6238ddf78c37b2ed\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:5-79
+35-->[androidx.media3:media3-common:1.4.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\f287878c588d535c6238ddf78c37b2ed\transformed\jetified-media3-common-1.4.1\AndroidManifest.xml:22:22-76
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.convall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.convall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:14:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\8cf478dec41eed746328fa8046755ba2\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+46        android:extractNativeLibs="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:15:9-43
+48        android:label="Convall" >
+48-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:13:9-32
+49        <activity
+49-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:16:9-37:20
+50            android:name="com.example.convall.MainActivity"
+50-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:17:13-41
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:22:13-163
+52            android:exported="true"
+52-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:18:13-36
+53            android:hardwareAccelerated="true"
+53-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:23:13-47
+54            android:launchMode="singleTop"
+54-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:19:13-43
+55            android:taskAffinity=""
+55-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:20:13-36
+56            android:theme="@style/LaunchTheme"
+56-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:21:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:24:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:29:13-32:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:30:15-70
+67                android:resource="@style/NormalTheme" />
+67-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:31:15-52
+68
+69            <intent-filter>
+69-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:33:13-36:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:34:17-68
+70-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:34:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:35:17-76
+72-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:35:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:40:9-42:33
+80            android:name="flutterEmbedding"
+80-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:41:13-44
+81            android:value="2" />
+81-->C:\Users\JuaMa\Desktop\Convall\android\app\src\main\AndroidManifest.xml:42:13-30
+82
+83        <provider
+83-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-17:20
+84            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+84-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-82
+85            android:authorities="com.example.convall.flutter.image_provider"
+85-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-74
+86            android:exported="false"
+86-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-37
+87            android:grantUriPermissions="true" >
+87-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-47
+88            <meta-data
+88-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-16:75
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-67
+90                android:resource="@xml/flutter_image_picker_file_paths" />
+90-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:17-72
+91        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+92        <service
+92-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-31:19
+93            android:name="com.google.android.gms.metadata.ModuleDependencies"
+93-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:13-78
+94            android:enabled="false"
+94-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:13-36
+95            android:exported="false" >
+95-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-37
+96            <intent-filter>
+96-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-26:29
+97                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+97-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:17-94
+97-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:25-91
+98            </intent-filter>
+99
+100            <meta-data
+100-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:13-30:36
+101                android:name="photopicker_activity:0:required"
+101-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:17-63
+102                android:value="" />
+102-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:17-33
+103        </service>
+104
+105        <provider
+105-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-19:20
+106            android:name="com.crazecoder.openfile.FileProvider"
+106-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-64
+107            android:authorities="com.example.convall.fileProvider.com.crazecoder.openfile"
+107-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-88
+108            android:exported="false"
+108-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-37
+109            android:grantUriPermissions="true"
+109-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-47
+110            android:requestLegacyExternalStorage="true" >
+110-->[:open_file_android] C:\Users\JuaMa\Desktop\Convall\build\open_file_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-56
+111            <meta-data
+111-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-16:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-67
+113                android:resource="@xml/filepaths" />
+113-->[:image_picker_android] C:\Users\JuaMa\Desktop\Convall\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:17-72
+114        </provider>
+115
+116        <uses-library
+116-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+117            android:name="androidx.window.extensions"
+117-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+118            android:required="false" />
+118-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+119        <uses-library
+119-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+120            android:name="androidx.window.sidecar"
+120-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+121            android:required="false" />
+121-->[androidx.window:window:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+122
+123        <provider
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+125            android:authorities="com.example.convall.androidx-startup"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+126            android:exported="false" >
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+127            <meta-data
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+129                android:value="androidx.startup" />
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+130            <meta-data
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+132                android:value="androidx.startup" />
+132-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+135                android:value="androidx.startup" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+136        </provider>
+137
+138        <receiver
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+139            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+140            android:directBootAware="false"
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+141            android:enabled="true"
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+142            android:exported="true"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+143            android:permission="android.permission.DUMP" >
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+145                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+148                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+151                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+154                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\JuaMa\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+155            </intent-filter>
+156        </receiver>
+157    </application>
+158
+159</manifest>
